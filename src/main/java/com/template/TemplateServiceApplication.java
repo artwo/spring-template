@@ -16,7 +16,8 @@ public class TemplateServiceApplication {
     }
 
     public static ApplicationContext start(final String[] additionalProfiles, final String[] args) {
-        final SpringApplication application = new SpringApplication(TemplateServiceApplication.class);
+        final SpringApplication application =
+                new SpringApplication(TemplateServiceApplication.class);
         String[] allProfiles;
         if (additionalProfiles != null) {
             allProfiles = new String[additionalProfiles.length + 1];

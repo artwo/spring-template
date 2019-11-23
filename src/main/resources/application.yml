@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Spring-Template
+  jackson:
+    mapper:
+      DEFAULT_VIEW_INCLUSION: true
+
+api:
+  version: "1.0.0"
+  basepath: "template/v1"
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: "/api-docs"
